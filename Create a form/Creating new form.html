@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Creating new form - She Codes</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+	<body>
+
+		<div class="mainTitle" >
+			<h1> She Codes; </h1><br/>
+			<h2> Super hero league</h2>
+		</div>
+
+		<div class="formBody" id="Bigbox">
+			<h3 id="formTitle"> Signup Form </h3>
+			<div class="formgroup">
+				<form>
+					<span>
+						<label for="First Name"><strong> First Name:</strong></label>
+						<input type="text" name="First Name">
+						</br>
+						<label for="Last Name"><strong>Last Name:</strong></label>
+						<input type="text" name="Last Name">
+						</br>
+						<label for="Email"><strong>Email:</strong></label>
+						<input type="email" name="Email" placeholder="Enter Your E-mail">
+						</br>
+						<label for="Resident"><strong>Resident:</strong></label>
+						<input list="listresident" id="Resident" placeholder="Choose Your Resident">
+							<datalist id="listresident">
+								<option value='Beer-Sheva'>Beer-Sheva </option>
+								<option value='Tel-Aviv'>Tel-Aviv </option>
+								<option value='Ofakim'>Ofakim </option>
+							</datalist>
+						</span>
+					</br>
+					<p id="Gender"><strong>Gender:</strong> 
+						<br/>
+						<input type="radio" name="Gender" value="female">female
+						</br>
+						<input type="radio" name="Gender" value="male">
+						Male
+						</br>
+						<input type="radio" name="Gender" value="Other">Other
+					</p>
+					<p id="Food"><strong>Favorit Food :</strong> <br/>
+						<input type="checkbox" name="Spageti" value="Spageti">Spageti
+						</br>
+						<input type="checkbox" name="Rice" value="Rice">Rice
+						</br>
+						<input type="checkbox" name="Chicken" value="Chicken">Chicken
+						</br>
+					</p>
+				</form>
+
+			</div>
+		</br>
+			<button clsss="btn">Submit</button>
+
+		</div>
+
+	</body>
+</html>
+
+
